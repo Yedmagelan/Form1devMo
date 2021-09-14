@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo formulaire</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form style="border:1px solid #ccc">
+        <div class="container">
+          <div class="user">
+            <img src="programmer.png" alt="logo">
+          </div>
+          <h1>Inscrivez-vous</h1>
+          <p id="legende">Creer un compte gratuit sur Futur Digital</p>
+
+          <input type="text" placeholder="Nom Complet" name="email" required>
+      
+          <input type="email" placeholder="Addresse e-mail" name="email" required>
+      
+          <input type="password" placeholder="Mot de passe" name="psw" required>
+          <p id="info">Le mot de passe doit comporter entre 4 et 6 caractères</p>
+          <input type="password" placeholder="Confirmer votre mot de passe" name="psw-repeat" required>
+          <label>
+            <input type="checkbox"  name="remember" style="margin-bottom:15px"> J'ai accepté les <a href="#" class="condition">conditions générales</a>
+          </label>
+      
+          <div class="clearfix">
+            <button type="submit" class="signupbtn">S'INSCRIRE</button>
+          </div>
+        </div>
+        <div class="image">
+            <img src="Image.png" alt="image form ">
+        </div>
+      </form>
+</body>
+</html>
